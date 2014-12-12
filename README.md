@@ -6,11 +6,7 @@ A bot for Telegram messaging service.
 
 Uses the tg cli project
 
-
-To add remotes:
-
-git remote add -f tg https://github.com/vysheng/tg.git
-
 To pull fresh commits:
 
-git pull -s subtree tg master
+git submodule update --init --recursive
+
