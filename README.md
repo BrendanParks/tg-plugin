@@ -10,3 +10,6 @@ To pull fresh commits:
 
 git submodule update --init --recursive
 
+## Requirements
+
+luarocks install luafilesystem
